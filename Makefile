@@ -48,7 +48,7 @@ EXEC := main.out
 # By default use gcc
 CC ?= gcc
 
-C_FLAGS := -Wall -Wextra -pthread
+C_FLAGS := -Wall -Wextra -pthread -g
 
 DEP_FLAGS := -MMD -MP
 
@@ -59,6 +59,7 @@ L_PATH := $(foreach p, $(LIB_PATH), -L$p)
 ifeq ($(CC),clang)
 	C_FLAGS += -Weverything
 	C_FLAGS += -lpthread
+	C_FLAGS += -g
 else ifneq (, $(filter $(CC), cc gcc))
 	C_FLAGS += -rdynamic
 endif

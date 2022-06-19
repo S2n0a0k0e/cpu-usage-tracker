@@ -16,39 +16,48 @@
 #include <sys/time.h>
 
 int main (void)
-{
-    
-    
-    struct timeval te;
-    gettimeofday(&te, NULL);
-    long long miliseconds = te.tv_sec*1000LL + te.tv_usec/1000;
-    
-   
+{   
     Warehouse_RA* wh_ra = warehouse_ra_create();
     Warehouse_AP* wh_ap = warehouse_ap_create();
+    Control* control = control_create();
+    
     Warehouse* wh = malloc(sizeof(*wh));
     *wh =   (Warehouse){.warehouse_ra = *wh_ra,
-                        .warehouse_ap = *wh_ap
+                        .warehouse_ap = *wh_ap,
+                        .control = *control
                         };
-    pthread_t reader, analyzer, printer;
+    
+
+    pthread_t reader, analyzer, printer, watchdog;
     pthread_create(&reader, NULL, thread_reader, (void*)&wh);
     pthread_create(&analyzer, NULL, thread_analyzer, (void*)&wh);
     pthread_create(&printer, NULL, thread_printer, (void*)&wh);
+    pthread_create(&watchdog, NULL, thread_watchdog, (void*)&wh);
 
-    pthread_join(reader, NULL);   
-    pthread_join(analyzer, NULL); 
-    pthread_join(printer, NULL);
-    
+
     warehouse_ra_destroy(wh_ra);
     warehouse_ap_destroy(wh_ap);
+    control_destroy(control);
+
+    
+    
+    
+    pthread_join(reader, NULL);   
+    pthread_join(analyzer, NULL);
+    pthread_join(printer, NULL);
+    pthread_join(watchdog, NULL);
+    
+    
     
     warehouse_ap_products_destroy(&wh->warehouse_ap);
     warehouse_ra_products_destroy(&wh->warehouse_ra);
     
+
     free(wh);
     
-    gettimeofday(&te, NULL);
-    long long miliseconds2 = te.tv_sec*1000LL + te.tv_usec/1000;
-    printf("%lld", (miliseconds2-miliseconds));
+    
+    abort();
+    
+
     return 0;
 }
