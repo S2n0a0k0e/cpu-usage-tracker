@@ -20,32 +20,36 @@ int main (void)
     Warehouse_RA* wh_ra = warehouse_ra_create();
     Warehouse_AP* wh_ap = warehouse_ap_create();
     Control* control = control_create();
+    Logger* PCPlogger = logger_create();
     
     Warehouse* wh = malloc(sizeof(*wh));
     *wh =   (Warehouse){.warehouse_ra = *wh_ra,
                         .warehouse_ap = *wh_ap,
-                        .control = *control
+                        .control = *control,
+                        .logger = *PCPlogger
                         };
     
 
-    pthread_t reader, analyzer, printer, watchdog;
+    pthread_t reader, analyzer, printer, watchdog, logger;
     pthread_create(&reader, NULL, thread_reader, (void*)&wh);
     pthread_create(&analyzer, NULL, thread_analyzer, (void*)&wh);
     pthread_create(&printer, NULL, thread_printer, (void*)&wh);
     pthread_create(&watchdog, NULL, thread_watchdog, (void*)&wh);
+    pthread_create(&logger, NULL, thread_logger, (void*)&wh);
 
 
     warehouse_ra_destroy(wh_ra);
     warehouse_ap_destroy(wh_ap);
     control_destroy(control);
+    logger_destroy(PCPlogger);
 
-    
-    
     
     pthread_join(reader, NULL);   
     pthread_join(analyzer, NULL);
     pthread_join(printer, NULL);
+    pthread_join(logger, NULL);
     pthread_join(watchdog, NULL);
+    
     
     
     

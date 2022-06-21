@@ -1,0 +1,603 @@
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Send data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Send data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Send data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Send data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Send data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Send data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Send data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Send data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Send data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [READER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[INFO]  [READER] Read data.
+[INFO]  [READER] Send data.
+[INFO]  [ANALYZER] Analyze data.
+[INFO]  [ANALYZER] Send data.
+[INFO]  [PRINTER] Get average cpu.
+[INFO]  [PRINTER] Print data.
+[ERROR]  [WATCHDOG] Reader doesn't response.
+[ERROR]  [WATCHDOG] Analyzer doesn't response.
+[ERROR]  [WATCHDOG] Printer doesn't response.

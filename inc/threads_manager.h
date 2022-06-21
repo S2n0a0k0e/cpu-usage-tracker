@@ -16,18 +16,21 @@
 #include "warehouse_ra.h"
 #include "warehouse_ap.h"
 #include "watchdog.h"
-#define HIT 6
+#include "logger.h"
+// #define HIT 6
 
 void* thread_reader(void *arg);
 void* thread_analyzer(void *arg);
 void* thread_printer(void *arg);
 void* thread_watchdog(void *arg);
+void* thread_logger(void *arg);
 
 typedef struct Warehouse
 {
     Warehouse_RA warehouse_ra;
     Warehouse_AP warehouse_ap;
     Control control;
+    Logger logger;
 } Warehouse;
 
 #endif
