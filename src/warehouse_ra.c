@@ -1,14 +1,4 @@
 #include <pthread.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/syscall.h>
-#include <time.h>
-#include <stdbool.h>
-#include <string.h>
-#include "reader.h"
-#include "analyzer.h"
 #include "warehouse_ra.h"
 
 
@@ -44,10 +34,9 @@ void warehouse_ra_products_destroy(Warehouse_RA* wh)
     while(wh->size > 0)
     {
         Package* product = warehouse_ra_get(wh);
-        for(size_t j = 0; j < product->size; j++)
-            {
-                free(product->buffer[j]);
-            }
+        for(size_t j = 0; j < product->size; j++)   
+            free(product->buffer[j]);
+            
         free(product);
     }
 }
@@ -64,6 +53,8 @@ bool warehouse_ra_is_empty(const Warehouse_RA* wh)
 
 void warehouse_ra_put(Warehouse_RA* wh, Package* product)
 {
+    if(product == NULL)
+        return;
     if (warehouse_ra_is_full(wh))
         return;
     

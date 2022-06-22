@@ -7,8 +7,8 @@
 
 typedef struct Cpu_usage
 {
-    double percentage;
     char name[8];
+    double percentage;
 } Cpu_usage;
 
 typedef struct Usage_package

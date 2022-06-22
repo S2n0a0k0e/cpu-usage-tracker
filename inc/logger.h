@@ -52,15 +52,15 @@ typedef struct Logger
 
 Logger* logger_create(void);
 void logger_destroy(Logger* logger);
-char* message_type_to_str(enum Message_type type);
-char* message_contex_to_str(enum Message_contex contex);
+char* message_type_to_str(const enum Message_type type);
+char* message_contex_to_str(const enum Message_contex contex);
 void logger_lock(Logger* logger);
 void logger_unlock(Logger* logger);
 void logger_call_producer(Logger* logger);
 void logger_call_consumer(Logger* logger);
 void logger_wait_for_producer(Logger* logger);
 void logger_wait_for_consumer(Logger* logger);
-void logger_put(Logger* logger, Logger_elem* product);
+void logger_put(Logger* logger,Logger_elem* product);
 bool logger_is_full(const Logger* logger);
 bool logger_is_empty(const Logger* logger);
 Logger_elem* create_message_to_send(enum Message_type type, enum Message_contex contex);

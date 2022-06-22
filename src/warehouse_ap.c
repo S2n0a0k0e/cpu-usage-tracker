@@ -1,13 +1,4 @@
 #include <pthread.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/syscall.h>
-#include <time.h>
-#include <stdbool.h>
-#include <string.h>
-#include "analyzer.h"
 #include "warehouse_ap.h"
 
 
@@ -35,9 +26,8 @@ void warehouse_ap_products_destroy(Warehouse_AP* wh)
     {
         Usage_package* product = warehouse_ap_get(wh);
         for(size_t j = 0; j < product->size; j++)
-            {
-                free(product->buffer[j]);
-            }
+            free(product->buffer[j]);
+            
         free(product);
     }
 }
@@ -64,6 +54,8 @@ bool warehouse_ap_is_empty(const Warehouse_AP* wh)
 
 void warehouse_ap_put(Warehouse_AP* wh, Usage_package* product)
 {
+    if(product == NULL)
+        return;
     if (warehouse_ap_is_full(wh))
         return;
     

@@ -1,15 +1,9 @@
 #ifndef WAREHOUSE_RA_H
 #define WAREHOUSE_RA_H
 
-#include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/syscall.h>
-#include <time.h>
 #include <stdbool.h>
-#include <string.h>
 #include "reader.h"
 
 

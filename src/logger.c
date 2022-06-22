@@ -74,8 +74,11 @@ bool logger_is_empty(const Logger* logger)
     return logger->size == 0;
 }
 
-void logger_put(Logger* logger, Logger_elem* product)
+void logger_put(Logger* logger,Logger_elem* product)
 {
+    if(product == NULL)
+        return;
+
     if (logger_is_full(logger))
         return;
     
@@ -99,6 +102,8 @@ Logger_elem* logger_get(Logger* logger)
 Logger_elem* create_message_to_send(const enum Message_type type,const  enum Message_contex contex)
 {
     Logger_elem* logger_element = malloc(sizeof(*logger_element));
+    if(logger_element == NULL)
+        return NULL;
 
     logger_element->type = type;
     logger_element->contex = contex;
@@ -107,15 +112,16 @@ Logger_elem* create_message_to_send(const enum Message_type type,const  enum Mes
 }
 
 
-char* message_type_to_str(enum Message_type type)
+char* message_type_to_str(const enum Message_type type)
 {
     if(type < INFO || type > ERROR)
         return "None";
+
     char* message_str[] = {"[None] ","[INFO] ", "[ERROR] "};
     return message_str[type];
 }
 
-char* message_contex_to_str(enum Message_contex contex)
+char* message_contex_to_str(const enum Message_contex contex)
 {
     if(contex < READ_FILE || contex > PRINTER_STOP)
         return "NONE";

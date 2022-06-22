@@ -1,7 +1,7 @@
-# SHELL SECTION
+
 RM := rm -rf
 
-# PRETTY PRINTS SECTION
+
 define print_cc
 	$(if $(Q), @echo "[CC]        $(1)")
 endef
@@ -14,19 +14,18 @@ define print_rm
     $(if $(Q), @echo "[RM]        $(1)")
 endef
 
-# VERBOSE or NOT?
+
 ifeq ("$(origin V)", "command line")
 	Q :=
 else
 	Q ?= @
 endif
 
-# PROJECT TREE
+
 SDIR := ./src
 ADIR := ./app
 IDIR := ./inc
 
-# FILES
 SRC := $(wildcard $(SDIR)/*.c)
 
 ASRC := $(SRC) $(wildcard $(ADIR)/*.c)
@@ -40,13 +39,9 @@ DEPS := $(OBJ:%.o=%.d)
 LIB_PATH :=
 LIB :=
 
-# EXEC
 EXEC := main.out
 
-# COMPILATOR SECTION
-
-# By default use gcc
-CC ?= gcc
+CC := gcc -std=c99
 
 C_FLAGS := -Wall -Wextra -pthread -g
 

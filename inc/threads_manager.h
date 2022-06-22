@@ -22,7 +22,7 @@
 #define HIT 6
 
 
-
+void thread_create(void);
 void* thread_reader(void *arg);
 void* thread_analyzer(void *arg);
 void* thread_printer(void *arg);
