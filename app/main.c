@@ -14,6 +14,17 @@
 #include "threads_manager.h"
 #include "time.h"
 #include <sys/time.h>
+#include <signal.h>
+#include <stdbool.h>
+
+bool done = false;
+
+void term(int signum)
+{
+    printf("Signum: %d\n", signum);
+    done = true;
+    
+}
 
 int main (void)
 {   
@@ -28,7 +39,12 @@ int main (void)
                         .control = *control,
                         .logger = *PCPlogger
                         };
-    
+
+    struct sigaction action;
+    memset(&action, 0, sizeof(struct sigaction));
+    action.sa_handler = term;
+    sigaction(SIGTERM, &action, NULL);
+
 
     pthread_t reader, analyzer, printer, watchdog, logger;
     pthread_create(&reader, NULL, thread_reader, (void*)&wh);
@@ -37,6 +53,7 @@ int main (void)
     pthread_create(&watchdog, NULL, thread_watchdog, (void*)&wh);
     pthread_create(&logger, NULL, thread_logger, (void*)&wh);
 
+    
 
     warehouse_ra_destroy(wh_ra);
     warehouse_ap_destroy(wh_ap);

@@ -3,7 +3,6 @@
 #include <stdint.h>
 #include <stdlib.h>
 
-
 Control* control_create(void)
 {
     Control* control = malloc(sizeof(*control));

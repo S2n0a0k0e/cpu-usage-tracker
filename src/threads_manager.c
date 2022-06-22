@@ -5,7 +5,7 @@
 #include "logger.h"
 #include <sys/time.h>
 #define ROUNDS 100
-
+extern bool done;
 
 
 void* thread_reader(void *arg)
@@ -293,7 +293,7 @@ void* thread_watchdog(void *arg)
 
     Warehouse* wh = *(Warehouse**)arg;
     bool end = false;
-    while(!end)
+    while(!end && !done)
     {
         sleep(2);
 

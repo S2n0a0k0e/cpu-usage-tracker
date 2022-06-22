@@ -17,7 +17,11 @@
 #include "warehouse_ap.h"
 #include "watchdog.h"
 #include "logger.h"
-// #define HIT 6
+#include <signal.h>
+
+#define HIT 6
+
+
 
 void* thread_reader(void *arg);
 void* thread_analyzer(void *arg);
@@ -31,6 +35,7 @@ typedef struct Warehouse
     Warehouse_AP warehouse_ap;
     Control control;
     Logger logger;
+
 } Warehouse;
 
 #endif
